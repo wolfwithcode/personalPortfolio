@@ -1,16 +1,48 @@
-.block {
-    background-color: black;
-    opacity: .8;
-    padding: 25px;
-    width: 50%;
-    /* margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto; */
-    margin: auto;
-    border-radius: 10%;
+@media (max-width: 400px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Welcome section */
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:url("https://res.cloudinary.com/dzw5skdae/image/upload/v1586571498/milky-way.jpg");
+  }
+  
+  
+h1{
+    padding: 0;
+    margin-top: 0px;
+    color: white;
+    font-size: 3.0em;
 }
 
+p {
+    color: white;
+    font-size: 3.0em;
+}
+
+.project-title {
+    color: tomato;
+    font-size: 2em;
+}
+  
+  
 .nav-pills {
     font-family: Lobster;
     font-size: 1.7em;
@@ -19,92 +51,3 @@
     
 }
 
-body {
-    background-color: black;
-    font-family: Lobster;
-    color: white;
-}
-
-h1 {
-    padding: 0;
-    margin-top: 0px;
-    color: white;
-    font-size: 5.0em;
-}
-
-.btn-default {
-    background-color: black;
-    border-color: black;
-    color: blanchedalmond;
-    font-size: 1.7em;
-}
-
-
-p {
-    font-size: 2.0em;
-}
-
-.me {
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-}
-
-#iconLinkedIn {
-    color: red;
-}
-
-#iconGitHub {
-    color: seagreen;
-}
-
-#iconEmail {
-    color: slateblue;
-}
-
-.pageOne {
-    background:url("https://res.cloudinary.com/dzw5skdae/image/upload/v1586571498/milky-way.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 1200px;
-    /* margin-top: -10%; */
-}
-
-.pageTwo {
-    background:url("https://res.cloudinary.com/dzw5skdae/image/upload/v1586570550/astronomy.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 1200px;   
-    padding-top: 5%;
-}
-
-
-.pageThree {
-    background:url("https://res.cloudinary.com/dzw5skdae/image/upload/v1584356012/hotel6.jpg");
-    background-size: cover;
-    width: 100%;
-    /* height: 1200px;    */
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.pageFour {
-    background:url("https://res.cloudinary.com/dzw5skdae/image/upload/v1584356011/hotel11.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 1200px;   
-    padding-top: 5%;
-}
-
-.paddingTop {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.footer {
-    background-color: black;
-    height: 50px;
-}
-/* https://res.cloudinary.com/dzw5skdae/image/upload/v1586570550/astronomy.jpg */

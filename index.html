@@ -3,128 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Personal Portfolio Webpage</title>
+    <title>A personal portfolio</title>
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous"
+    />
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+        rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <section id="welcome-section">    
-        <div class="container-fluid" id="navbar">
-            <ul class="nav nav-pills">
-                <li>
-                    <!-- <a href="#">Anh Duc Le</a> -->
-                    <h1> Welcome to my portfolio</h1>
-                </li>
-                <li class="pull-right">
-                    <a href="#about">About me</a>
-                </li>
-                <li class="pull-right">
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li class="pull-right">
-                    <a href="#projects">My projects</a>
-                </li>
-                <li class="pull-right">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>            
+    <div class="container-fluid nav" id="navbar">
+        <ul class="nav nav-pills">            
+            <li class="pull-right">
+                <a href="#welcome-section">About me</a>
+            </li>
+            <li class="pull-right">
+                <a href="#projects">My projects</a>
+            </li>
+            <li class="pull-right">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>            
+    </div>
+   
+    <section id="welcome-section" class="welcome-section">
+        <div>            
+            <h1>Welcome to my portfolio</h1>
+            <p>I am a Front end developer</p>
         </div>
     </section>
-    <div class="pageOne" id="about">
-        <!-- <p>Hello world</p> -->
-        <div class="block text-center">
-            <h1>Anh Duc Le</h1>
-            <h2>Always learning. Always evolving. Work smart and work hard.</h2>
+    
+    <section id="projects" class="projects-section">
+        <h1> Projects </h1>
+        <div class="text-center">
+        <a 
+            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+            target="_blank"
+            class="project-tile text-center"
+        >
+            <img
+            class="project-image"
+            src="https://res.cloudinary.com/dzw5skdae/image/upload/v1586600086/Screenshot_from_2020-04-02_12-11-49_le1rgp.png"
+            alt="project"
+            />
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Personal Blog page
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
         </div>
-       
-        <div class="btnList text-center">
-            <a href="#" class="btn btn-default"> <i class="fa fa-linkedin-square" id="iconLinkedIn"></i> LinkedIn</a>
-            <a href="#" class="btn btn-default"> <i class="fa fa-github-square" id="iconGitHub"></i>GitHub</a>
-            <a href="#" class="btn btn-default"> <i class="fa fa-mail-forward" id="iconEmail"></i> Email</a>
+        <div class="text-center">
+        <a 
+            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+            target="_blank"
+            class="project project-tile"
+        >
+            <img
+            class="project-image"
+            src="https://res.cloudinary.com/dzw5skdae/image/upload/v1586600217/Screenshot_from_2020-04-02_14-52-29_vkn9na.png"
+            alt="project"
+            />
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Shopping page
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+        </div>
+        <div class="text-center">
+        <a 
+            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+            target="_blank"
+            class="project project-tile"
+        >
+            <img
+            class="project-image"
+            src="https://res.cloudinary.com/dzw5skdae/image/upload/v1586600096/Screenshot_from_2020-04-01_12-36-42_vzhf3v.png"
+            alt="project"
+            />
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            React Page
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+        </div>
+        <div class="text-center">
+        <a 
+            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+            target="_blank"
+            class="project project-tile"
+        >
+            <img
+            class="project-image"
+            src="https://res.cloudinary.com/dzw5skdae/image/upload/v1586600106/Screenshot_from_2020-04-02_15-04-37_xff8lw.png"
+            alt="project"
+            />
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Headphone pro page
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h2>Let's work together</h2>
+            <a 
+                id="profile-link"
+                href="https://github.com/wolfwithcode"
+                target="_blank"
+            >
+                <i class="fab fa-github"></i> GitHub
+            </a>
         </div>
         
-    </div>
-    <div class="pageTwo" id="portfolio">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <h1>Duc Anh Le</h1>
-                <p>Donec eu orci eu ipsum auctor porta ac in lacus. Praesent convallis convallis enim. Nullam elementum non dui eu facilisis. Proin pretium sollicitudin nunc, sed commodo nulla lacinia et. Pellentesque blandit massa et tempus viverra. Nullam vel nisl eu risus rutrum lacinia at sed dui. Duis augue mauris, maximus id pharetra et, pretium nec magna. Aliquam gravida ipsum eu lorem placerat, non molestie dui pharetra. Cras tincidunt pellentesque tincidunt. Suspendisse facilisis dictum mi, a ornare mi faucibus eu. Nunc tempor enim quis lacus ornare mattis.
-
-                    Phasellus quis leo ut urna pharetra bibendum quis sit amet nisl. Donec condimentum vitae sapien vitae aliquet. Maecenas sit amet orci eu neque elementum maximus. Praesent nisl purus, ultricies vel accumsan ut, bibendum sed tellus. Proin tincidunt elit vitae nulla laoreet, eget lobortis neque posuere. Nullam lobortis ligula tortor, id porta metus aliquam sit amet. Maecenas augue nisl, imperdiet vitae tincidunt vitae, accumsan at velit. Praesent egestas enim id augue auctor commodo. Duis consectetur vestibulum orci ut imperdiet. Donec cursus a ipsum ac vehicula. Ut ac sem non massa finibus sodales. Morbi placerat dui ac tellus imperdiet rhoncus. Nullam dapibus nunc ut luctus aliquet.</p>                
-            </div>
-            <div class="col-md-6">
-                <img src="https://res.cloudinary.com/dzw5skdae/image/upload/v1584356014/hotel10.jpg" alt="my avatar" class="me">
-            </div>
-        </div>
-    </div>
-    <section class="pageThree text-center" id="projects">
-        <div class="paddingTop">
-            <h1>Next Level Portfolio</h1>
-            <h2>Portfolio Best Above the Rest</h2>
-        </div>
-        <div class="row">
-            <div class="container">            
-                <div class="col-md-6" >
-                    <p class="codepen" data-height="400" data-theme-id="light" data-default-tab="html,result" data-user="anhld49" data-slug-hash="OJyJyNZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="A tribute page">
-                        <span>See the Pen <a href="https://codepen.io/anhld49/pen/OJyJyNZ">
-                        A tribute page</a> by Duc Anh Le (<a href="https://codepen.io/anhld49">@anhld49</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>                    
-                    <a href="https://codepen.io/anhld49/full/OJyJyNZ" target="_blank" id="profile-link">A tribute page fullpage</a>
-                    <p class="project-title">
-                        <span class="code">&lt;</span>
-                        Tribute Page
-                        <span class="code">&#47;&gt;</span>
-                      </p>
-                </div>
-                <div class="col-md-6">
-                    <p class="codepen" data-height="400" data-theme-id="light" data-default-tab="html,result" data-user="anhld49" data-slug-hash="OJyJyNZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="A tribute page">
-                        <span>See the Pen <a href="https://codepen.io/anhld49/pen/OJyJyNZ">
-                        A tribute page</a> by Duc Anh Le (<a href="https://codepen.io/anhld49">@anhld49</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                    <a href="https://codepen.io/anhld49/full/OJyJyNZ" target="blank" >A tribute page fullpage</a>
-                </div>
-            </div>
-            <div class="container">            
-                <div class="col-md-6">
-                    <p class="codepen" data-height="400" data-theme-id="light" data-default-tab="html,result" data-user="anhld49" data-slug-hash="OJyJyNZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="A tribute page">
-                        <span>See the Pen <a href="https://codepen.io/anhld49/pen/OJyJyNZ">
-                        A tribute page</a> by Duc Anh Le (<a href="https://codepen.io/anhld49">@anhld49</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                    <a href="https://codepen.io/anhld49/full/OJyJyNZ" target="blank" >A tribute page fullpage</a>
-                </div>
-                <div class="col-md-6">
-                    <p class="codepen" data-height="400" data-theme-id="light" data-default-tab="html,result" data-user="anhld49" data-slug-hash="OJyJyNZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="A tribute page">
-                        <span>See the Pen <a href="https://codepen.io/anhld49/pen/OJyJyNZ">
-                        A tribute page</a> by Duc Anh Le (<a href="https://codepen.io/anhld49">@anhld49</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                    <a href="https://codepen.io/anhld49/full/OJyJyNZ" target="blank" >A tribute page fullpage</a>
-                </div>
-            </div>
-        </div>
     </section>
-    <div class="pageFour text-center" id="contact">
-        <div class="row">
 
-        </div>
-        <div class="footer">
-            <h3>
-                <a href="#about">About me</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact me</a>
-                <a href="mailto:manwithcode@live.com">manwithcode@live.com</a>
-            </h3>
-        </div>
-    </div>
+    <footer>
+        <p>Created by Anh Duc Le</p>
+    </footer>
 </body>
 </html>
